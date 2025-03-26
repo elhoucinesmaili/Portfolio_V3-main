@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EL houcine Smaili </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <img src="./assets/logo.png" alt="John Doe profile picture" />
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About me</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">SMAILI</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">el houcine Smaili</h1>
+        <p class="section__text__p2">Software Engenieer frontend react Js</p>
+        <div class="btn-container">
+          <button
+          class="btn btn-color-2"
+          onclick="window.location.href='./assets/CVEhoucinesmaili.pdf'"
+      >
+          Download CV
+      </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/elhoucinesmaili/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/elhoucinesmaili/build_my_portfolio_project_easybooking'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development Freelancer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree<br />Diploma Software development <br /> Software Engenieer Student at ALX Foundations</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+            I'm elhoucine smaili, a seasoned ReactJS specialist passionate about crafting exceptional
+            web applications. With proficiency in ReactJS, problem-solving, and excellent communication
+            skills, I ensure your vision guides the development process. Entrust me with your ReactJS
+            needs for streamlined processes, enhanced user experiences, and project success.
+            Let's collaborate to bring your aspirations to life. I'm eager to dive into 
+            this journey with you and deliver exceptional results.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ReactJS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Figma</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Csharp</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Asp.net
+                  </h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git&Github</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="projects-grid">
+        <div class="project-card" data-aos="fade-up">
+          <div class="project-image-container">
+            <img src="./assets/project.png" alt="Frontend Projects" class="project-img">
+            <div class="project-overlay">
+              <div class="project-tech">
+                <span>React</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>+4 Frontend Projects</h3>
+            <p>Collection of responsive web applications built with modern technologies</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2" onclick="location.href='https://github.com/elhoucinesmaili'">
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-image-container">
+            <img src="./assets/project-1.png" alt="Project Slide Team" class="project-img">
+            <div class="project-overlay">
+              <div class="project-tech">
+                <span>ReactJS</span>
+                <span>Tailwind css</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Clone Spotify</h3>
+            <p>project to develop a Spotify clone using modern web development technologies including React.js, Vite, and Tailwind CSS</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2" onclick="location.href='https://spotify-clone-v2-6r1.pages.dev/'">
+                Link
+              </button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-image-container">
+            <img src="./assets/project-2.png" alt="Project Video Team" class="project-img">
+            <div class="project-overlay">
+              <div class="project-tech">
+                <span>Tailwind CSS</span>
+                <span>Next.js 14 and ShadCN</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Hotel Bookings or Rooms for Rent</h3>
+            <p>Project to develop a modern web application using cutting-edge web development technologies:
+              Programming Language: TypeScript,Frameworks & Libraries: Next.js 14, ShadCN ,Styling: Tailwind CSS , Data Scraping: Oxylabs</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2" onclick="location.href='https://www.youtube.com/watch?v=cPRDInlcATo/'">
+                Link
+              </button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="project-image-container">
+            <img src="./assets/project-3.png" alt="Project App Team" class="project-img">
+            <div class="project-overlay">
+              <div class="project-tech">
+               
+                <span>Figma</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3> Figma Project for Mobile App Design</h3>
+            <p>Mobile application development project documentation</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2" onclick="window.open('./assets/project-App.pdf')">
+                PDF
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p>
+              <a href="mailto:elhoucinesmaili51@gmail.com">elhoucinesmaili51@gmail.com</a>
+            </p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p>
+              <a href="https://www.linkedin.com/in/elhoucinesmaili/" target="_blank" rel="noopener noreferrer">
+                LinkedIn
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>      
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Elhoucine Smaili. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
